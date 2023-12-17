@@ -58,6 +58,7 @@ Run the application using the following command:
 
 ```bash
 sudo python system_info_viewer.py
+```
 
 System Tab
   Displays system information.  Note: Currently will not display GPU information.  This is a work in progress to find a suitable way to do this.
