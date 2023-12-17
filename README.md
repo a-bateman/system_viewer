@@ -60,34 +60,34 @@ Run the application using the following command:
 sudo python system_info_viewer.py
 ```
 
-System Tab
+## System Tab
   Displays system information.  Note: Currently will not display GPU information.  This is a work in progress to find a suitable way to do this.
 
-Processes Tab
+## Processes Tab
   Displays running processes and allows the user to kill processes by either typing the PID into the textbox or selecting it from the list.
 
-Settings Tab
+## Settings Tab
   Displays various settings, provided in the "./resources/settings.json" file, and allows them to be quickly run by pressing the run button or modifying the command before running by typing in the text box.
   Output from the command will be displayed in the output box for each command.
 
-Applications Tab
+## Applications Tab
   Displays a list of all installed applications and allows the user to uninstall an application by either selecting it from the list or typing it's name into the text box.
 
-ZFS Snapshots Tab
+## ZFS Snapshots Tab
   Displays the ZFS snapshots for the selected ZFS pool by choosing it from the drop down and pressing the show button.
   Snapshots can be created by pressing the Create Snapshot button.  Snapshots can be named by entering a name in the Snapshots Name textbox.  The name of the snapshot defaults to the current date and time.
 
-Boot Environments Tab
+## Boot Environments Tab
   Displays the boot environments by pressing the show button.
   Boot environments can be created by pressing the Create Boot Environment button.  Boot Environments can be named by entering a name in the Boot Environments Name textbox.  The name of the snapshot defaults to the current date and time.
 
-Logs Tab
+## Logs Tab
   Displays the syslog or dmesg logs in a scrollable window.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or pull requests.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
