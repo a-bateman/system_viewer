@@ -37,7 +37,7 @@ System Info Viewer is a Python application built with Tkinter that provides an i
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/a-bateman/system_viewer/]
+    git clone https://github.com/a-bateman/system_viewer/
     ```
 
 2. Navigate to the project directory:
