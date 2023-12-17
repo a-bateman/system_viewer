@@ -1,4 +1,4 @@
-# System Info Viewer
+# System Viewer
 
 System Info Viewer is a Python application built with Tkinter that provides an interactive graphical interface to view and manage system information. The application is designed for systems running on FreeBSD.
 
