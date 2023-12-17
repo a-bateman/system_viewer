@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Reset Network Connection",
+        "description": "Reset the network connection",
+        "command": "service netif restart"
+    },
+    {
+        "name": "Check for Package Updates",
+        "description": "Check for updates to installed packages",
+        "command": "pkg update && pkg upgrade -n"
+    },
+    {
+        "name": "Check for FreeBSD Updates",
+        "description": "Check for updates to the FreeBSD base system",
+        "command": "freebsd-update fetch && freebsd-update install"
+    }
+]
